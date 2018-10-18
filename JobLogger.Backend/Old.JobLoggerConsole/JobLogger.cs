@@ -65,7 +65,7 @@ namespace Old.JobLoggerConsole
             (!System.IO.File.Exists(System.Configuration.ConfigurationManager.AppSettings["LogFileDirectory"] + "LogFile" + DateTime.Now.ToShortDateString() + ".txt"))
             {
                 l =
-                System.IO.File.ReadAllText(System.Configuration.ConfigurationManager.AppSettings[" LogFileDirectory"] + "LogFile" + DateTime.Now.ToShortDateString() + ".txt");
+                System.IO.File.ReadAllText(System.Configuration.ConfigurationManager.AppSettings["LogFileDirectory"] + "LogFile" + DateTime.Now.ToShortDateString() + ".txt");
             }
             if (error && _logError)
             {
