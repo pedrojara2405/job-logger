@@ -337,6 +337,24 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JobLogger.DataAccess\JobLogger.DataAccess.csproj">
+      <Project>{5ae40699-dfc4-44ed-8d5f-00e5d53b06e9}</Project>
+      <Name>JobLogger.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JobLogger.Entities\JobLogger.Entities.csproj">
+      <Project>{698bc352-b7ec-445b-8181-15689214e9a5}</Project>
+      <Name>JobLogger.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JobLogger.Logic\JobLogger.Logic.csproj">
+      <Project>{f15a447c-cdb2-4b05-903c-563e44088a6e}</Project>
+      <Name>JobLogger.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JobLogger.ViewModels\JobLogger.ViewModels.csproj">
+      <Project>{cd31fe43-b233-4f8f-a843-abc7afa63dfb}</Project>
+      <Name>JobLogger.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
