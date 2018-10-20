@@ -48,6 +48,11 @@ Ensures that the system is able to:
 -AngularJS 
 -ORM
 
+#Requirements
+Sql Management Studio 2012 or over, in order to support LocalDb
+Visual Studio 2012 or over
+NodeJs
+
 =======================================================================================================
 #.gitignore file:
 Created by https://www.gitignore.io/api/macos,windows,angular,visualstudio,visualstudiocode
@@ -59,6 +64,7 @@ Contains the original code snipped about JobLogger class. All this code was comm
 It is a Web API project using MVC templatete. Even more to apply ORM, was added Entity Framework with Code First model and to keep a source control about DDL files, we used Entity Framework Migrations.
 
 #SQL LocalDB instance was used as Database repository
+The application connect with a new login with User ID = RecluterUser and Password = ruPw123
 
 #Api.JobLogger.Tests
 Contains all developed unit tests about Api.JobLogger project. Mainly unit tests about controllers
