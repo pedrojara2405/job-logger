@@ -1,8 +1,7 @@
 ### JobLogger ###
 
 #Info about the original code snipped:
-"The code is used to log different messages throughout an application. We want the ability to be able to log to a text file, the console and/or the database. Messages can be marked as message, warning or error. 
-We also want the ability to selectively be able to choose what gets logged, such as to be able to log only errors or only errors and warnings."
+"The code is used to log different messages throughout an application. We want the ability to be able to log to a text file, the console and/or the database. Messages can be marked as message, warning or error. We also want the ability to selectively be able to choose what gets logged, such as to be able to log only errors or only errors and warnings."
 
 #JobLogger repository contains solutions for backend and frontend projects in order to reach a real scenario from a bit part of the recruitment process related to candidates, taken as base the previous info about the original code snipped.
 
@@ -64,7 +63,7 @@ Contains the original code snipped about JobLogger class. All this code was comm
 It is a Web API project using MVC templatete. Even more to apply ORM, was added Entity Framework with Code First model and to keep a source control about DDL files, we used Entity Framework Migrations.
 
 #SQL LocalDB instance was used as Database repository
-The application connect with a new login with User ID = RecluterUser and Password = ruPw123
+The application connect using a new login with User ID = RecluterUser and Password = ruPw123
 
 #Api.JobLogger.Tests
 Contains all developed unit tests about Api.JobLogger project. Mainly unit tests about controllers
