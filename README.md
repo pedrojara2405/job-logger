@@ -11,12 +11,12 @@ As a Recluter User,
 I want to have a Job Logger system which I can to signing and to make maintenance about candidate info. I also want the ability to selectively be able to choose what gets logged, such as to be able to log only errors or only errors and warnings. Even more I want to have the ability to be able to log to a text file, the console and/or the database
 so that I can manage the candidate data and log all events about related to candidate maintenance such as messages, warnings and/or errors throught different selectable contexts.
 
-#User Story 001:
+#User Story US001:
 As a Recluter User, 
 I want to be able signing and to make maintenance about candidate info 
 so that i can to do CRUD process about candidates.
 
-#Acceptance Criteria (User Story 001):
+#Acceptance Criteria (US001):
 
 Ensures that Recluter User is able to:
 
@@ -24,12 +24,12 @@ Ensures that Recluter User is able to:
 - Navigate to Candidate Maintenance
 - Create/Read/Update/and Delete candidate data
 
-#User Story 002:
+#User Story US002:
 As a Recluter User, 
 I want to selectively be able to choose what gets logged, such as to be able to log only errors or only errors and warnings. Even more I want to have the ability to be able to log to a text file, the console and/or the database
 so that the application can to log many kind of events such as messages, warnings and/or errors, which the application could support concurencia for many selective contexts such as text file, console and/or database
 
-#Acceptance Criteria (User Story 002):
+#Acceptance Criteria (US002):
 
 Ensures that the system is able to:
 
