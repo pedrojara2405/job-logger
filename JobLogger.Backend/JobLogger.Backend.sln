@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Old.JobLogger.Console", "Old.JobLoggerConsole\Old.JobLogger.Console.csproj", "{6B96D874-FA95-40FB-9E70-623934CF459C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.JobLogger", "Api.JobLogger\Api.JobLogger.csproj", "{CD17AF53-3A75-47A2-B574-34CC3B3CCCD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.Api", "Api.JobLogger\JobLogger.Api.csproj", "{CD17AF53-3A75-47A2-B574-34CC3B3CCCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.JobLogger.Tests", "Api.JobLogger.Tests\Api.JobLogger.Tests.csproj", "{2EAE500A-6D94-492D-9ECB-5B4CAB6DDD1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.Api.Tests", "Api.JobLogger.Tests\JobLogger.Api.Tests.csproj", "{2EAE500A-6D94-492D-9ECB-5B4CAB6DDD1B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.ViewModels", "JobLogger.ViewModels\JobLogger.ViewModels.csproj", "{CD31FE43-B233-4F8F-A843-ABC7AFA63DFB}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.Logic", "JobLogger.Logic\JobLogger.Logic.csproj", "{F15A447C-CDB2-4B05-903C-563E44088A6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.DataAccess", "JobLogger.DataAccess\JobLogger.DataAccess.csproj", "{5AE40699-DFC4-44ED-8D5F-00E5D53B06E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log.Service", "LoggerService\Log.Service.csproj", "{15CACCEF-B188-4474-B530-8F6F551D7756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5AE40699-DFC4-44ED-8D5F-00E5D53B06E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE40699-DFC4-44ED-8D5F-00E5D53B06E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE40699-DFC4-44ED-8D5F-00E5D53B06E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CACCEF-B188-4474-B530-8F6F551D7756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CACCEF-B188-4474-B530-8F6F551D7756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CACCEF-B188-4474-B530-8F6F551D7756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CACCEF-B188-4474-B530-8F6F551D7756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -109,9 +109,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Api.JobLogger\Api.JobLogger.csproj">
+    <ProjectReference Include="..\Api.JobLogger\JobLogger.Api.csproj">
       <Project>{CD17AF53-3A75-47A2-B574-34CC3B3CCCD1}</Project>
-      <Name>Api.JobLogger</Name>
+      <Name>JobLogger.Api</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
