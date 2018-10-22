@@ -32,7 +32,7 @@ so that the application can to log many kind of events such as messages, warning
 
 Ensures that the system is able to:
 
-- Log events related to signing user and candidate´s maintenance such as messages, warnings and/or errors, which the application could support multi-thread for only one instance, using Singleton constructor pattern
+- Log events related to signing user and candidate´s maintenance such as messages, warnings and/or errors, which the application could support multi-thread for only one instance, using Singleton constructor pattern.
 - Support many kind of context to log messages such as text file, console and/or database.
 
 #Technologies used:
@@ -56,7 +56,7 @@ NodeJs
 #.gitignore file:
 Created by https://www.gitignore.io/api/macos,windows,angular,visualstudio,visualstudiocode
 
-#Old.JobLogger.Console:
+#Old.JobLogger.Service:
 Contains the original code snipped about JobLogger class. All this code was commented because this produced 17 compilation errors.
 
 #Api.JobLogger

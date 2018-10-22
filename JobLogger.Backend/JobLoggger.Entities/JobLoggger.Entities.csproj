@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5AE40699-DFC4-44ED-8D5F-00E5D53B06E9}</ProjectGuid>
+    <ProjectGuid>{69A9E64B-93BB-4BBB-9280-6B2DB5FE5726}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JobLogger.DataAccess</RootNamespace>
-    <AssemblyName>JobLogger.DataAccess</AssemblyName>
+    <RootNamespace>JobLoggger.Entities</RootNamespace>
+    <AssemblyName>JobLoggger.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,13 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Candidate.cs" />
+    <Compile Include="LogMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\JobLogger.Entities\JobLogger.Entities.csproj">
-      <Project>{698bc352-b7ec-445b-8181-15689214e9a5}</Project>
-      <Name>JobLogger.Entities</Name>
-    </ProjectReference>
+    <Compile Include="RecluterUser.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

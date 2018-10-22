@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JobLoggger.Entities\JobLoggger.Entities.csproj">
+      <Project>{69a9e64b-93bb-4bbb-9280-6b2db5fe5726}</Project>
+      <Name>JobLoggger.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
