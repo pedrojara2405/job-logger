@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLoggger.Entities", "JobL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Old.JobLogger.Service", "Old.JobLogger.Service\Old.JobLogger.Service.csproj", "{47447749-E545-46BF-AF7F-F67CEB9A63F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.Api", "JobLogger.Api\JobLogger.Api.csproj", "{5098F389-C22C-4B02-9409-91F5DC1298A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobLogger.Api.Tests", "JobLogger.Api.Tests\JobLogger.Api.Tests.csproj", "{C32706EC-9D79-4FB4-8065-2840D3DA927A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{47447749-E545-46BF-AF7F-F67CEB9A63F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47447749-E545-46BF-AF7F-F67CEB9A63F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47447749-E545-46BF-AF7F-F67CEB9A63F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5098F389-C22C-4B02-9409-91F5DC1298A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5098F389-C22C-4B02-9409-91F5DC1298A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5098F389-C22C-4B02-9409-91F5DC1298A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5098F389-C22C-4B02-9409-91F5DC1298A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32706EC-9D79-4FB4-8065-2840D3DA927A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32706EC-9D79-4FB4-8065-2840D3DA927A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32706EC-9D79-4FB4-8065-2840D3DA927A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32706EC-9D79-4FB4-8065-2840D3DA927A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
