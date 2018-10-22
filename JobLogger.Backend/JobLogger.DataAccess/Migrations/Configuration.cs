@@ -1,18 +1,19 @@
 namespace JobLogger.DataAccess.Migrations
 {
+    using JobLogger.Data;
     using JobLogger.Entities;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<JobLogger.DataAccess.JobLoggerDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<JobLoggerDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(JobLogger.DataAccess.JobLoggerDbContext context)
+        protected override void Seed(JobLoggerDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -63,7 +64,7 @@ namespace JobLogger.DataAccess.Migrations
                 new Candidate
                 {
                     FirstName = "Juan",
-                    LastName = "Peres",
+                    LastName = "Perez",
                     PhoneNumber = "999888777",
                     Email = "jperezs@gmail.com",
                     Status = "In Progress",

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using JobLogger.Entities;
 
-namespace JobLogger.DataAccess
+namespace JobLogger.Data
 {
     public class JobLoggerDbContext: DbContext
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{F15A447C-CDB2-4B05-903C-563E44088A6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JobLogger.Logic</RootNamespace>
-    <AssemblyName>JobLogger.Logic</AssemblyName>
+    <RootNamespace>JobLogger.Business</RootNamespace>
+    <AssemblyName>JobLogger.Business</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,10 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\CandidateBusiness.cs" />
-    <Compile Include="Interface\LogMessageBusiness.cs" />
-    <Compile Include="Interface\RecluterUserBusiness.cs" />
+    <Compile Include="CandidateBusiness.cs" />
+    <Compile Include="Interface\ICandidateBusiness.cs" />
+    <Compile Include="Interface\ILogMessageBusiness.cs" />
+    <Compile Include="Interface\IRecluterUserBusiness.cs" />
+    <Compile Include="LogMessageBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecluterUserBusiness.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JobLogger.DataAccess\JobLogger.Data.csproj">

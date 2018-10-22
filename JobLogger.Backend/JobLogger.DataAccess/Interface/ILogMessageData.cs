@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JobLogger.Logic.Interface
+namespace JobLogger.Data.Interface
 {
-    public interface LogMessageBusiness
+    public interface ILogMessageData
     {
         IEnumerable<LogMessage> GetAll();
-        LogMessage Get(int id);
-        void Add(LogMessage candidate);
+        LogMessage Get(int logMessageId);
+        void Add(LogMessage logMessage);
     }
 }

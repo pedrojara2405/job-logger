@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JobLogger.Logic.Interface
+namespace JobLogger.Data.Interface
 {
-    public interface RecluterUserBusiness
+    public interface IRecluterUserData
     {
         IEnumerable<RecluterUser> GetAll();
-        RecluterUser Get(int id);
+        RecluterUser Get(int recluterUserId);
     }
 }

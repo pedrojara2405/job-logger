@@ -13,7 +13,7 @@ namespace JobLogger.DataAccess.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201810221055129_InitialMigration"; }
+            get { return "201810221104007_InitialMigration"; }
         }
         
         string IMigrationMetadata.Source

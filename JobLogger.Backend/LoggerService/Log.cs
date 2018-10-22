@@ -17,15 +17,9 @@ namespace LoggerService
         private Log()
         {
         }
-
-        /*
-         * Private property initilized with null
-         * ensures that only one instance of the object is created
-         * based on the null condition
-       */
+        
         private static readonly Lazy<Log> _instance = new Lazy<Log>(() => new Log());
-        //private static Log instance = null;
-
+        
         /*
          * public property is used to return only one instance of the class
          * leveraging on the private property
