@@ -16,12 +16,13 @@ namespace JobLogger.DataAccess.Migrations
                         LastName = c.String(nullable: false, maxLength: 10),
                         PhoneNumber = c.String(nullable: false, maxLength: 15),
                         Email = c.String(nullable: false, maxLength: 50),
+                        Status = c.String(nullable: false, maxLength: 15),
                         RecluterUserId = c.Int(nullable: false),
                         IsActive = c.Boolean(nullable: false),
                         Created = c.DateTimeOffset(nullable: false, precision: 7),
                         CreatedBy = c.String(nullable: false, maxLength: 10),
                         LastUpdated = c.DateTimeOffset(nullable: false, precision: 7),
-                        LastUpdatedBy = c.String(nullable: false, maxLength: 10),
+                        LastUpdatedBy = c.String(maxLength: 10),
                     })
                 .PrimaryKey(t => t.CandidateId)
                 .ForeignKey("dbo.RecluterUser", t => t.RecluterUserId, cascadeDelete: true)
@@ -53,7 +54,7 @@ namespace JobLogger.DataAccess.Migrations
                         Created = c.DateTimeOffset(nullable: false, precision: 7),
                         CreatedBy = c.String(nullable: false, maxLength: 10),
                         LastUpdated = c.DateTimeOffset(nullable: false, precision: 7),
-                        LastUpdatedBy = c.String(nullable: false, maxLength: 10),
+                        LastUpdatedBy = c.String(maxLength: 10),
                     })
                 .PrimaryKey(t => t.RecluterUserId);
             

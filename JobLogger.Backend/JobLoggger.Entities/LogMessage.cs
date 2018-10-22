@@ -18,6 +18,7 @@ namespace JobLogger.Entities
         [Required]
         [MaxLength(1)]
         public string ContextKind { get; set; }
+        [Required]
         public DateTimeOffset Created { get; set; }
         [Required]
         [MaxLength(10)]

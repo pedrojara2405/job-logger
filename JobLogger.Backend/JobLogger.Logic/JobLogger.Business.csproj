@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\CandidateBusiness.cs" />
+    <Compile Include="Interface\LogMessageBusiness.cs" />
+    <Compile Include="Interface\RecluterUserBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

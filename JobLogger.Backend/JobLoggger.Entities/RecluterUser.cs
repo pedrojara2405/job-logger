@@ -26,12 +26,12 @@ namespace JobLogger.Entities
         [MaxLength(50)]
         public string Email { get; set; }
         public bool IsActive { get; set; }
+        [Required]
         public DateTimeOffset Created { get; set; }
         [Required]
         [MaxLength(10)]
         public string CreatedBy { get; set; }
-        public DateTimeOffset LastUpdated { get; set; }
-        [Required]
+        public DateTimeOffset LastUpdated { get; set; }        
         [MaxLength(10)]
         public string LastUpdatedBy { get; set; }
         public ICollection<Candidate> Candidates { get; set; }

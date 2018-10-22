@@ -48,10 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CandidateDA.cs" />
     <Compile Include="JobLoggerDbContext.cs" />
-    <Compile Include="Migrations\201810220910193_InitialMigration.cs" />
-    <Compile Include="Migrations\201810220910193_InitialMigration.Designer.cs">
-      <DependentUpon>201810220910193_InitialMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201810221055129_InitialMigration.cs" />
+    <Compile Include="Migrations\201810221055129_InitialMigration.Designer.cs">
+      <DependentUpon>201810221055129_InitialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,8 +68,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201810220910193_InitialMigration.resx">
-      <DependentUpon>201810220910193_InitialMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810221055129_InitialMigration.resx">
+      <DependentUpon>201810221055129_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
